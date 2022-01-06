@@ -1,0 +1,4 @@
+Random line of text to see how less than sign works to redirect input streams in bash
+Adding new line using echo
+Adding another random line
+and yet another line to test my while loop
