@@ -94,6 +94,8 @@
 #     done
 #I was trying to fix this for lop to revert the filenames to their old names, but I failed woefully. Probably need to use some grep combo to cut out the new_new_new_new parts in the filename
 
+#Btw, while loop has a compadre called until. While loops runs while the condition is true. Until loop runs while the condition is false
+
 #While Loop
 # LINE=0
 # while read -r CURRENT_LINE
