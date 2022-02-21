@@ -57,8 +57,9 @@
 # val1 -le val2 Returns true if val1 is less than or equal to val2
 ########
 
-#Wed Jan 5th 2022 10:40pm. Getting tired and hungry...
+#### ----NOTE that -eq is used for numerical comparisons while == is used for string comparisons ------
 
+#Wed Jan 5th 2022 10:40pm. Getting tired and hungry...
 
 #Case Statements
 # read -p "Are you 21 years or older? Answer Y/N: " RESPONSE
