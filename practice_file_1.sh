@@ -122,3 +122,16 @@
 # touch "hello_world.txt"
 # echo "Hello World" >> "hello_world.txt"
 # echo "Created hello_world.txt, but I'm not sure how to specify what folder it goes into. For now it is stored in the folder where my script is stored"
+
+
+########## Additional notes, plus tips and tricks ########
+# exec is used to manipulate file-descriptors or to create output and error logging. 
+# 0 is standard input(stdin)
+# 1 is standard output(stdout)
+# 2 is standard error(stderr)
+
+# So the line below means "Appends standard output to the log variable(in the script this variable is the log file's location) and send standard error to standard output". Makes sense?
+#exec 1>> $LOG 2>&1
+ 
+
+
